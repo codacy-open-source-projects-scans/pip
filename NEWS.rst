@@ -9,6 +9,37 @@
 
 .. towncrier release notes start
 
+24.1.2 (2024-07-07)
+===================
+
+Bug Fixes
+---------
+
+- Fix finding hardlink targets in tar files with an ignored top-level directory. (`#12781 <https://github.com/pypa/pip/issues/12781>`_)
+
+24.1.1 (2024-06-26)
+===================
+
+Bug Fixes
+---------
+
+- Actually use system trust stores when the truststore feature is enabled.
+
+Vendored Libraries
+------------------
+
+- Upgrade requests to 2.32.3
+
+
+24.1 (2024-06-20)
+=================
+
+Vendored Libraries
+------------------
+
+- Upgrade truststore to 0.9.1.
+
+
 24.1b2 (2024-06-12)
 ===================
 
