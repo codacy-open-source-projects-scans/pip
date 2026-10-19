@@ -15,11 +15,11 @@
       "version": "0.14.4"
     },
     {
-      "bom-ref": "pkg:pypi/certifi@2026.7.22",
+      "bom-ref": "pkg:pypi/certifi@2026.10.18",
       "name": "certifi",
-      "purl": "pkg:pypi/certifi@2026.7.22",
+      "purl": "pkg:pypi/certifi@2026.10.18",
       "type": "library",
-      "version": "2026.7.22"
+      "version": "2026.10.18"
     },
     {
       "bom-ref": "pkg:pypi/distlib@0.4.3",
@@ -120,11 +120,11 @@
       "version": "1.2.0"
     },
     {
-      "bom-ref": "pkg:pypi/truststore@0.10.4",
+      "bom-ref": "pkg:pypi/truststore@0.10.5",
       "name": "truststore",
-      "purl": "pkg:pypi/truststore@0.10.4",
+      "purl": "pkg:pypi/truststore@0.10.5",
       "type": "library",
-      "version": "0.10.4"
+      "version": "0.10.5"
     },
     {
       "bom-ref": "pkg:pypi/urllib3@2.7.0",
@@ -138,7 +138,7 @@
     {
       "dependsOn": [
         "pkg:pypi/CacheControl@0.14.4",
-        "pkg:pypi/certifi@2026.7.22",
+        "pkg:pypi/certifi@2026.10.18",
         "pkg:pypi/distlib@0.4.3",
         "pkg:pypi/distro@1.9.0",
         "pkg:pypi/idna@3.18",
@@ -153,7 +153,7 @@
         "pkg:pypi/setuptools@70.3.0",
         "pkg:pypi/tomli@2.4.1",
         "pkg:pypi/tomli-w@1.2.0",
-        "pkg:pypi/truststore@0.10.4",
+        "pkg:pypi/truststore@0.10.5",
         "pkg:pypi/urllib3@2.7.0"
       ],
       "ref": "bom-ref:pip"
@@ -162,7 +162,7 @@
       "ref": "pkg:pypi/CacheControl@0.14.4"
     },
     {
-      "ref": "pkg:pypi/certifi@2026.7.22"
+      "ref": "pkg:pypi/certifi@2026.10.18"
     },
     {
       "ref": "pkg:pypi/distlib@0.4.3"
@@ -207,7 +207,7 @@
       "ref": "pkg:pypi/tomli-w@1.2.0"
     },
     {
-      "ref": "pkg:pypi/truststore@0.10.4"
+      "ref": "pkg:pypi/truststore@0.10.5"
     },
     {
       "ref": "pkg:pypi/urllib3@2.7.0"
